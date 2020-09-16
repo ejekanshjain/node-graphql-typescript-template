@@ -1,0 +1,1 @@
+# node-graphql-typescript-template
