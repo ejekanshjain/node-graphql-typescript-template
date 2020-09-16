@@ -10,6 +10,6 @@ server
     .listen({ port: PORT })
     .then(({ port }) => {
         console.log(
-            `${NODE_ENV === 'production' ? 'Production' : 'Development'} server started on ${port}`
+            `${NODE_ENV === 'production' ? 'Production' : 'Development'} server started on ${port}...`
         )
     })
