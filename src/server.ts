@@ -7,7 +7,7 @@ import resolvers from './graphql/resolvers'
 const server = new ApolloServer({ typeDefs, resolvers })
 
 server
-    .listen(PORT)
+    .listen({ port: PORT })
     .then(({ port }) => {
         console.log(
             `${NODE_ENV === 'production' ? 'Production' : 'Development'} server started on ${port}`
